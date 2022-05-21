@@ -1,0 +1,33 @@
+
+.tag-name{
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid #dde1ef;
+  border-radius: 4px;
+  color: #000;
+  margin: 10px 8px;
+  padding: 5px 12px;
+  background-color: #e4e5e7;
+  cursor: pointer;
+}
+.tag-name:hover,
+.tag-name:active{
+    background: rgba(151, 47, 80, 0.998);
+    border-color: rgba(174, 65, 100, 0.548);
+    color: white;
+}
+/* button:active{
+    background: rgba(151, 47, 80, 0.998);
+    border-color: rgba(174, 65, 100, 0.548);
+    color: white;
+
+} */
+/* .divider {
+  height: 35px;
+  width: 2px;
+  background: #d5cdcb;
+  margin-left: 2px;
+}  */
+
+
+  

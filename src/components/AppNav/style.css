@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+li,
+a {
+  font-size: 26px;
+  color: #010c0f;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 30px 10%;
+  height: 5px;
+  justify-content: space-between;
+  background-color: rgb(250, 248, 248);
+}
+.nav__links {
+  list-style: none;
+}
+.nav__links li {
+  display: inline-block;
+}
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav__links li a i {
+  color: red;
+}
+.nav__links li a :hover {
+  color: #f9066b;
+}
+img {
+  width: 20%;
+  height: 100%;
+}

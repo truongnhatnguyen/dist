@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+.mySlides1 {
+  display: block;
+  height: 50vh;
+}
+img {
+  vertical-align: middle;
+  image-rendering: pixelated;
+  /* object-fit: fill; */
+  /* overflow: hidden; */
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(6, 5, 5);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover,
+.next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.content__detail{
+  max-width: 1500px;
+  padding: 20px 20px;
+  margin: auto;
+}
+.content__detail-top{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+}
+.title__detail h1{
+ padding-bottom:1rem ;
+}
+.price__detail{
+ font-size: 3rem;
+ font-weight: 700;
+}
+.description__detail{
+  text-align: justify;
+  line-height: 1.5rem;
+}
+.description__detail .text{
+  padding-bottom: 1rem;
+}
+.description__detail h3{
+  padding-bottom: 1rem;
+}
+@media screen and (max-width: 600px) {
+  .content__detail-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+  }
+  .title__detail h1{
+    font-size: 1.7rem;
+   }
+  .price__detail{
+    display: block;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+   }
+}
+
